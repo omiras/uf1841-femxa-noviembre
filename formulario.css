@@ -1,0 +1,46 @@
+/* Estilos del formulario facilitados al alumnado. */
+
+form {
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f7f3ec;
+  border: 1px solid #d8cfc2;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9a8f80;
+  border-radius: 6px;
+  font: inherit;
+}
+
+textarea {
+  height: 130px;
+  resize: vertical;
+}
+
+button,
+input[type="submit"] {
+  width: auto;
+  margin-top: 16px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #2f6f61;
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
