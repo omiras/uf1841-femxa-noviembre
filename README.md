@@ -91,9 +91,9 @@ Construye un formulario con:
 
 | Campo | Configuración |
 |---|---|
-| Nombre | `name="nombre"`, obligatorio y 60 caracteres como máximo |
-| Correo electrónico | `name="correo"`, obligatorio, con formato de correo válido y 254 caracteres como máximo |
-| Mensaje | `name="comentario"`, obligatorio y 500 caracteres como máximo |
+| Nombre | `name="name"`, obligatorio y 60 caracteres como máximo |
+| Correo electrónico | `name="email"`, obligatorio, con formato de correo válido y 254 caracteres como máximo |
+| Mensaje | `name="message"`, obligatorio y 500 caracteres como máximo |
 | Envío | Botón con el texto **Enviar mensaje** |
 
 Cada campo tendrá una etiqueta asociada. El formulario utilizará `method="post"` y el siguiente valor en el atributo `action`:
