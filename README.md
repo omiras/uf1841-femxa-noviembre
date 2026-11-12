@@ -4,6 +4,16 @@
 
 **Entrega:** contenido completo de `index.html`, pegado en la respuesta de Moodle.
 
+### Uso de herramientas de Inteligencia Artificial
+
+El uso de herramientas de Inteligencia Artificial (IA), como ChatGPT, GitHub Copilot u otras herramientas similares, está permitido **únicamente como apoyo al aprendizaje**, por ejemplo, para resolver dudas puntuales, consultar documentación, generar ejemplos o facilitar la comprensión de determinados conceptos.
+
+No se considerará válido utilizar estas herramientas para **generar directamente la solución completa ni partes sustanciales de los ejercicios propuestos**. El código presentado deberá ser elaborado y comprendido por el alumnado.
+
+El alumnado deberá ser capaz de **explicar y justificar el funcionamiento del código entregado, así como realizar modificaciones sobre este cuando el docente lo solicite**.
+
+El uso indiscriminado de código generado mediante IA puede dificultar la comprensión y asimilación de los conceptos trabajados durante el curso y, por este motivo, no sustituye el trabajo y razonamiento propios del alumnado.
+
 ## Situación
 
 La protectora ficticia **Huellas Felices** necesita una página web para presentar animales y recibir solicitudes de contacto.
@@ -96,6 +106,8 @@ Construye un formulario con:
 | Correo electrónico | `name="email"`, obligatorio, con formato de correo válido y 254 caracteres como máximo |
 | Mensaje | `name="message"`, obligatorio y 500 caracteres como máximo |
 | Envío | Botón con el texto **Enviar mensaje** |
+
+**Importante: el atributo `name` de cada campo debe tener exactamente el valor indicado: `name="name"` para el nombre, `name="email"` para el correo electrónico y `name="message"` para el mensaje.** El servicio de contacto utiliza estos nombres para identificar los datos recibidos. Si falta alguno o se utiliza un valor diferente, los datos no se enviarán correctamente al servicio.
 
 Cada campo tendrá una etiqueta asociada. El formulario utilizará `method="post"` y el siguiente valor en el atributo `action`:
 
